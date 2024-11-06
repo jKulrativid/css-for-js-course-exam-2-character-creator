@@ -9,7 +9,6 @@
     a little gross, but we haven't seen the tools
     to deal with it yet!
   */
-  overflow-x: auto;
   margin-bottom: 32px;
 }
 
@@ -24,4 +23,8 @@
   font-size: 0.875rem;
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
+}
+
+.scrollbar {
+  overflow: auto;
 }
